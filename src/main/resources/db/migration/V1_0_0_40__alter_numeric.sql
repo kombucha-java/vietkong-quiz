@@ -1,0 +1,3 @@
+ALTER TABLE team_results ALTER COLUMN summary TYPE NUMERIC(6, 2);
+ALTER TABLE round_results ALTER COLUMN result TYPE NUMERIC(5, 2);
+
